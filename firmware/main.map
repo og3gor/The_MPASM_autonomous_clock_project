@@ -1,0 +1,128 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Mon Jul 29 11:20:09 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x00031c
+      .config_2007_MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00018d      
+                            0x002007    0x002007      
+            399 out of 518 program addresses used, program memory utilization is 77%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               Check_Time   0x000177    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             ClearDisplay   0x0000b9    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               Clock_null   0x000015    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Clock_one   0x000018    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             DISPLAY_TIME   0x000147    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Data_null   0x00001a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 Data_one   0x00001d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex0   0x000076    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex1   0x00007a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex2   0x000085    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex3   0x00008c    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex0   0x000055    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex1   0x000059    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex2   0x000064    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex3   0x00006b    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 Init_I2C   0x00000f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+              LCDClearReg   0x0000cc    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               LCDloopReg   0x0000f2    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                LOOP_TIME   0x00015f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                     Main   0x0000ff    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                MegaPause   0x000108    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               MicroPause   0x00010b    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                    Pause   0x000102    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+         Read_DS1338_Time   0x000133    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             Recieve_Byte   0x000040    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Send_Byte   0x00002a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 SetDigit   0x000097    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit0   0x00009d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit1   0x0000a4    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit2   0x0000ab    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit3   0x0000b2    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+          Set_DS1338_Time   0x000110    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+              Showdisplay   0x0000d3    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                    Start   0x000000    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            Start_uslovie   0x00001f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             Stop_uslovie   0x000024    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 TMPloop1   0x0000f5    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               UnInit_I2C   0x000012    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                clearloop   0x000008    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            loop_counter2   0x0000be    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               next_bit_r   0x000043    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               next_bit_s   0x00002d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             wait_clock_p   0x000026    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_r1   0x000047    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_r2   0x000051    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_s1   0x000032    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_s2   0x00003a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                       wr   0x000104    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Start   0x000000    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                clearloop   0x000008    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 Init_I2C   0x00000f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               UnInit_I2C   0x000012    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               Clock_null   0x000015    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Clock_one   0x000018    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Data_null   0x00001a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 Data_one   0x00001d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            Start_uslovie   0x00001f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             Stop_uslovie   0x000024    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             wait_clock_p   0x000026    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                Send_Byte   0x00002a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               next_bit_s   0x00002d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_s1   0x000032    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_s2   0x00003a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             Recieve_Byte   0x000040    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               next_bit_r   0x000043    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_r1   0x000047    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            wait_clock_r2   0x000051    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex0   0x000055    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex1   0x000059    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex2   0x000064    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+   DigitPatternsLowIndex3   0x00006b    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex0   0x000076    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex1   0x00007a    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex2   0x000085    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+  DigitPatternsHighIndex3   0x00008c    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 SetDigit   0x000097    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit0   0x00009d    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit1   0x0000a4    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit2   0x0000ab    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                SetDigit3   0x0000b2    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             ClearDisplay   0x0000b9    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+            loop_counter2   0x0000be    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+              LCDClearReg   0x0000cc    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+              Showdisplay   0x0000d3    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               LCDloopReg   0x0000f2    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                 TMPloop1   0x0000f5    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                     Main   0x0000ff    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                    Pause   0x000102    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                       wr   0x000104    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                MegaPause   0x000108    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               MicroPause   0x00010b    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+          Set_DS1338_Time   0x000110    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+         Read_DS1338_Time   0x000133    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+             DISPLAY_TIME   0x000147    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+                LOOP_TIME   0x00015f    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+               Check_Time   0x000177    program     static D:\ProjectPic\mplabi2sclockV5\main.asm
+
+
